@@ -1,0 +1,96 @@
+.login-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #ffffff, #cfe2ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-box {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    height: 410px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .login-box h1 {
+    color: #2563eb;
+    width: 80px;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 10px;
+  }
+
+  .login-box h5 {
+    color: #666565;
+    position: absolute;
+    top: 188px;
+    left: 44.6%;
+  }
+
+  .login-box h2 {
+    color: #4f4f4f;
+    margin-bottom: 30px;
+    margin-left: -155px;
+    margin-top: 40px;
+  }
+  
+  .login-box input {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 16px;
+  }
+
+  .remember-container input[type="checkbox"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #999;
+    border-radius: 50%; /* Makes it round like radio button */
+    margin-left: -150px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .remember-container input[type="checkbox"]:checked::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #04a75d;
+    top: 4px;
+    left: 5px;
+    border-radius: 50%;
+  }
+  
+  label{
+    color: #666565;
+    position: relative;
+    margin-left: 10px;
+    top: -23px;
+  }
+  
+  .login-box button {
+    width: 100%;
+    background: #2563eb;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-box button:hover {
+    background: #1e40af;
+  }
+
+  
