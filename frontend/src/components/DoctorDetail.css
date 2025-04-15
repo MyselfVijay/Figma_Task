@@ -1,0 +1,203 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: rgb(249, 250, 251);
+    min-height: 100vh;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .header-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 40px;
+    width: auto;
+  }
+  
+  .company-name {
+    margin-left: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(31, 41, 55);
+  }
+  
+  .company-subtitle {
+    margin-left: 0.5rem;
+    font-size: 0.875rem;
+    color: rgb(107, 114, 128);
+  }
+  
+  .user-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .user-details {
+    margin-left: 0.75rem;
+  }
+  
+  .user-name {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: rgb(55, 65, 81);
+  }
+  
+  .user-id {
+    font-size: 0.75rem;
+    color: rgb(107, 114, 128);
+  }
+  
+  .power-button {
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .power-button:hover {
+    background-color: rgb(243, 244, 246);
+  }
+  
+  /* Main content styles */
+  .main-container {
+    max-width: 896px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .page-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(31, 41, 55);
+    margin-bottom: 1.5rem;
+  }
+  
+  .video-preview {
+    width: 100%;
+    aspect-ratio: 16/7;
+    background-color: rgb(31, 41, 55);
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .status-message {
+    text-align: center;
+    font-size: 1.125rem;
+    color: rgb(55, 65, 81);
+    margin-bottom: 2rem;
+  }
+  
+  .device-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 42rem;
+    margin: 0 auto 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .device-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .device-check {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .device-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .device-icon {
+    color: rgb(37, 99, 235);
+  }
+  
+  .device-name {
+    color: rgb(55, 65, 81);
+  }
+  
+  .check-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: rgb(219, 234, 254);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(37, 99, 235);
+  }
+  
+  .browser-support {
+    text-align: center;
+    font-size: 0.875rem;
+    color: rgb(75, 85, 99);
+    margin-bottom: 2rem;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .continue-button {
+    background-color: rgb(37, 99, 235);
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .continue-button:hover {
+    background-color: rgb(29, 78, 216);
+  }
